@@ -32,18 +32,22 @@ int main(void)
         {
             printf(" ");
         }
+        
         // Print left hashes
         for (int j = 0; j < i; j++)
         {
             printf("#");
         }
+        
         // Print the gap
         printf("  ");
+        
         // Print right hashes
         for (int j = 0; j < i; j++)
         {
             printf("#");
         }
+        
         // Move to the next line for the next level
         printf("\n");
     }
